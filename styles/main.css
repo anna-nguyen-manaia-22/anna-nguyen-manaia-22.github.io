@@ -91,3 +91,11 @@ a:hover {
     max-width: 1200px;
   }
 }
+
+.inline-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+width:70%
+}
