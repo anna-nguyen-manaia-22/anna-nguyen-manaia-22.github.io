@@ -1,21 +1,11 @@
-/* body {
-  margin: 0;
-  font-family: "Kantumruy Pro";
-  color: black;
+.has-logos-background {
+  background-image: url("../images/main-background.png");
+  background-repeat: repeat;
 }
 
-main {
-  margin: 20px 20px 20px 50px;
-} */
 
 #akl {
-  /* setting the size and position of my akl image */
-  background-image: url("../images/akl.jpg");
   height: calc(100vw / 1920 * 660);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; */
 }
 /* 
 p {
