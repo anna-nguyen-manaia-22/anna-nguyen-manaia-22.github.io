@@ -3,10 +3,10 @@
   background-repeat: repeat;
 }
 
-
-#akl {
-  height: calc(100vw / 1920 * 660);
+.content ul.sprint-outline {
+  list-style: none;
 }
+
 /* 
 p {
   margin-left: 10px;
