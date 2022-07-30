@@ -4,26 +4,31 @@
     <title>Difference between Margin, Border, and Padding - Anna's blog</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../styles/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <script src="https://kit.fontawesome.com/60d3ed2391.js" crossorigin="anonymous"></script>  
   </head>
 
   <body>
-    <main>
-      <h1>Difference between Margin, Border, and Padding</h1>
-      <a href="../index.html">Back</a>
+    <div class="pb-5">
+      <section class="hero pb-3 pt-5">
+        <h1 class="is-size-2 has-text-centered has-text-success">
+          Difference between Margin, Border, and Padding
+        </h1>
+      </section>
+    </div>
 
-      <div class="main-content">
-        <div class="inline-block">
-          <div class="inline-block box-with-border">
+    <div class="section has-logos-background">
+      <div class="container is-max-desktop">
+        <div class="box">
+          <div class="content is-normal">
             <p>
               To see the difference between Margin, Border, and Padding, let's have a look at the
               CSS box model. Every HTML element in a document is wrapped inside a layered box that
               consists of the margin, border, padding, and content.
             </p>
+
             <ul>
               <li>
                 Content is the content of the CSS box, where both the images and the text are
@@ -45,12 +50,16 @@
                 visible border.
               </li>
             </ul>
+            <p><img src="../images/box-model.jpg" class="image-center" /></p>
           </div>
-          <img src="../images/box-model.jpg" class="center" />
         </div>
       </div>
+      <div class="has-text-centered">
+        <a href="../index.html">Back</a>
+      </div>
 
-      <a href="../index.html">Back</a>
-    </main>
+    </div>
+  </div>
+  <div class="footer has-text-centered">Manaia cohort, 2022.</div>
   </body>
 </html>
